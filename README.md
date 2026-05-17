@@ -28,7 +28,7 @@ The traditional model shows pretty clearly its shortfall in seasonal contexts; a
 The historical model begins much more accurately as it can account for the fact that winter months are slow and to compensate for the lower sales in those months. As the summer months are calculated, it is able to correctly hold back from over compensating like the traditional model would.
 Another important trend to note is the ability to converge to 0 difference for each model. The historical model increases the difference from actual MoM 2 times (in April and November), where the traditional model increases the difference MoM 4 times (in February, August, September, and October). This is a direct effect of the over correcting from the busy summer months.
 In conclusion, the historical model is more consistent, accurate, and reliable than a traditional model for metric projection in seasonal periods.
-
+```
 Month  Hist Projection  Hist Diff  Trad Projection  Trad Diff Closer Model  Margin
   Jan           429593      13736           343152     -72705   Historical   58969
   Feb           424048       8191           335898     -79959   Historical   71768
@@ -42,7 +42,7 @@ Month  Hist Projection  Hist Diff  Trad Projection  Trad Diff Closer Model  Marg
   Oct           416386        529           420325       4468   Historical    3940
   Nov           415168       -689           418067       2210   Historical    1521
   Dec           415857          0           415857          0          N/A       0
-
+```
 # How to Run The Code
 
 Running the code will provide a pop-out window showing a matplotlib chart of a time series for 2025 projections as difference from actual for each model, with a zoomed in secondary graph for August-December as both models converge to a smaller scale.
