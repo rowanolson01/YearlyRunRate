@@ -18,7 +18,7 @@ The traditional model predicts period totals by assuming linear growth throughou
 
 In the example of this project, you would project the year's revenue thusly;
 
-        **([Year to-date Sales] / [Month Number]) * 12**
+        *([Year to-date Sales] / [Month Number]) * 12*
 
 *Historical Model*
 
@@ -26,7 +26,7 @@ The historical model predicts period totals using historical grain trends to spe
 
 In the example of this project, you would project the year's revenue thusly;
 
-        **[Year to-date Sales] / (Average of ([Year to-date Sales] / [Actual Yearly Sales]) for each month)**
+        *[Year to-date Sales] / (Average of ([Year to-date Sales] / [Actual Yearly Sales]) for each month)*
 
 # Project Findings
 
