@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Load and clean data
-df = pd.read_csv('Yearly Run Rate/BMandSD Retail Sales.csv')
+df = pd.read_csv('BMandSD Retail Sales.csv')
 df = df.rename(columns={'MRTSSM4441USN': 'total_revenue'})
 df['observation_date'] = pd.to_datetime(df['observation_date'])
 df['year'] = df['observation_date'].dt.year
@@ -89,6 +89,7 @@ inset.spines[['top', 'right']].set_visible(False)
 inset.spines[['left', 'bottom']].set_linewidth(0.8)
 plt.tight_layout(pad=1.5)
 
+plt.savefig('runrate_chart.png', dpi=150, bbox_inches='tight', facecolor='#D9D9D9')
 plt.show()
 
 final_df['closer'] = final_df.apply(
