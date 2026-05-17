@@ -56,6 +56,8 @@ Month  Hist Projection  Hist Diff  Trad Projection  Trad Diff Closer Model  Marg
   Dec           415857          0           415857          0          N/A       0
 ```
 
+![chart](runrate_chart.png)
+
 # How to Run The Code
 
 Running the code will provide a pop-out window showing a matplotlib chart of a time series for 2025 projections as difference from actual for each model, with a zoomed in secondary graph for August-December as both models converge to a smaller scale.
